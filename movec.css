@@ -1,0 +1,154 @@
+    @font-face {
+        font-family: "oswald";
+        src: url("fonts/oswald/Oswald-Regular.ttf");
+    }
+    
+    html,
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: oswald;
+    }
+    
+    .container {
+        text-align: center;
+    }
+    
+    .heading {
+        margin: 150px;
+    }
+    
+    .header {
+        background: url("move_bg.jpg") no-repeat center fixed;
+        height: 600px;
+        background-size: cover;
+    }
+    
+    @media (min-width: 600px) .heading h1 {
+        font-size: 200px;
+    }
+    
+    .heading h1 {
+        color: #fff;
+        margin: 0;
+        font-size: 200px;
+        font-weight: 900;
+    }
+    
+    .heading h6 {
+        color: #fff;
+        margin: 50px 0 20px 0;
+        font-size: 18px;
+    }
+    
+    .heading .btn {
+        background-color: #1c1c1c;
+        padding: 8px 30px;
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 0px;
+        font-size: 18px;
+    }
+    
+    .support {
+        background-color: #1c1c1c;
+        padding: 50px 0 80px;
+        text-align: center;
+    }
+    
+    @media (min-width: 600px) .support h1 {
+        font-size: 40px;
+    }
+    
+    .support h1 {
+        color: #ffa800;
+        font-size: 40px;
+    }
+    
+    .support p {
+        color: #efefef;
+        font-size: 18px;
+        font-weight: 100;
+        margin: 20px;
+    }
+    
+    .content .scontent {
+        text-align: center;
+        color: #efefef;
+        margin: 250px;
+    }
+    
+    .content {
+        background: url("move_feature.jpg") no-repeat center fixed;
+        background-size: cover;
+        height: 600px;
+    }
+    
+    .scontent h1 {
+        font-size: 50px;
+        font-weight: 800;
+        letter-spacing: 1px;
+    }
+    
+    @media (min-width: 600px) .scontent h1 {
+        font-size: 60px;
+    }
+    
+    .aside h1 {
+        color: #ffc800;
+        font-size: 40px;
+        font-weight: 400;
+    }
+    
+    .aside p {
+        color: #fff;
+        margin: 20px;
+    }
+    
+    .feature {
+        background-color: #1c1c1c;
+        padding: 50px 0 80px;
+    }
+    
+    .aside .btn {
+        background-color: #eee;
+        padding: 8px 30px;
+        color: #1c1c1c;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 0px;
+        font-size: 18px;
+    }
+    
+    .footer {
+        background: url("move_footer.jpg") no-repeat center fixed;
+        background-size: cover;
+    }
+    
+    .footer .word {
+        text-align: center;
+        margin: 250px;
+    }
+    
+    .footer .btn {
+        background-color: #1c1c1c;
+        padding: 8px 30px;
+        color: #fff;
+        text-decoration: none;
+        display: inline-block;
+        border-radius: 0px;
+        font-size: 18px;
+    }
+    
+    .footer h1 {
+        font-size: 40px;
+        font-weight: 800;
+        color: #fff;
+        margin-bottom: 20px;
+        letter-spacing: 1px;
+    }
+    
+    .footer .container {
+        margin-bottom: 0;
+    }

@@ -1,0 +1,30 @@
+.ico-paymentOption {
+    background-position: -95px -93px;
+    width: 25px;
+    height: 21px;
+}
+
+.check-sprite {
+    background-repeat: no-repeat;
+}
+
+.check-sprite {
+    background-image: url('checkout_sprite.png');
+}
+
+.mr5 {
+    margin-right: 5px;
+}
+
+.fl {
+    float: left;
+}
+
+.clr-cc {
+    color: #333;
+}
+
+div {
+    text-align: center;
+    margin: 100px;
+}

@@ -1,0 +1,43 @@
+    #first {
+        width: 130px;
+        height: 80px;
+    }
+    
+    #second {
+        width: 200px;
+        height: 40px;
+margin-top:18px;
+    }
+    
+    em {
+        color: #cc3333;
+        font-size: 2;
+        font-weight: 700;
+    }
+    
+    #secondp {
+        color: #333;
+        font-weight: bold;
+    }
+    
+    #abc {
+        text-align: right;
+    }
+    
+    h6 {
+        font-weight: 800;
+        font-size: 15px;
+        color: darkblue;
+    }
+    
+    button {
+        color: #fff;
+        text-align: center;
+        font-weight: bold;
+        background-color: darkgray;
+        margin-left: 30px;
+    }
+    
+    .buttons {
+        margin-left: 100px;
+    }

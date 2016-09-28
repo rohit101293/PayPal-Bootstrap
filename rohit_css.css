@@ -1,0 +1,57 @@
+.header {
+    background: url("Paypal_logo-5.png") no-repeat;
+    background-size: 200px 50px;
+    height: 150px;
+    background-position: 0px 50px;
+}
+
+
+/* make sidebar nav vertical */
+
+@media (min-width: 768px) {
+    .sidebar-nav .navbar .navbar-collapse {
+        padding: 0;
+        max-height: none;
+    }
+    .sidebar-nav .navbar ul {
+        float: none;
+        display: block;
+    }
+    .sidebar-nav .navbar li {
+        float: none;
+        display: block;
+        text-align: center;
+    }
+    .sidebar-nav .navbar li a {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        letter-spacing: 1px;
+    }
+    .sidebar-nav .navbar li:hover {
+        background-color: darkgray;
+        transition: background-color ease 5s;
+    }
+    .bod {
+        border-bottom: 2px solid #eee;
+    }
+}
+
+.msg {
+    height: 30px;
+    background-color: rgba(158, 158, 158, 0.8);
+    border-radius: 5px 5px 0 0;
+}
+
+.msg h5 {
+    position: relative;
+    top: 8px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-left: 40px;
+}
+
+iframe {
+    position: relative;
+    border: none;
+    right: -10px;
+}

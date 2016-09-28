@@ -1,0 +1,107 @@
+<!doctype html>
+<html>
+
+<head lang="en-us">
+    <title>Credit</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="secure_css.css">
+    <script>
+        function direct() {
+            parent.location.href = 'last0_html.html';
+        }
+
+        function cancel() {
+            parent.location.href = 'cancel.html';
+        }
+
+        function sysdate() {
+            var d = new Date();
+            document.getElementById("date").innerHTML = d.getDate() + "-" + (d.getMonth() + 1) + "-" + d.getFullYear();
+        }
+    </script>
+</head>
+
+<body onload="sysdate()">
+    <div class="header" style="margin-top:30px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <img src="MasterCardSecureCode.gif" class="pull-left" id="first">
+                    <img src="HDFC_Bank_Logo.svg.png" class="pull-right" id="second">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <p><em>Enter your password</em></p>
+                    <p id="secondp">Please enter your Verified by Visa® password in the field below to confirm your identity for this purchase, This information is not shared with the merchant.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <table>
+                        <tr>
+                            <td id="abc">
+                                <h6 style="color:olive;">Merchant Name:</h6>
+                            </td>
+                            <td>
+                                <h6 style="color:olive;">Indian Road Transport</h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="abc">
+                                <h6 style="color:olive;">Date:</h6>
+                            </td>
+                            <td>
+                                <h6 style="color:olive;" id="date"></h6>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="abc">
+                                <h6>Total Charge:</h6></td>
+                            <td>
+                                <h6>Rs XX.00</h6></td>
+                        </tr>
+                        <tr>
+                            <td id="abc">
+                                <h6>Card Number:</h6></td>
+                            <td>
+                                <h6>XXXX XXXX XXXX X234</h6></td>
+                        </tr>
+                        <tr>
+                            <td id="abc">
+                                <h6>Personal Message:</h6></td>
+                            <td>
+                                <h6>i am a vitian</h6></td>
+                        </tr>
+                        <tr>
+                            <td id="abc">
+                                <h6>Name:</h6>
+                            </td>
+                            <td>
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <td id="abc" style="vertical-align:top;">
+                                <h6>Password:</h6></td>
+                            <td>
+                                <input type="password">
+                                <p id="forgot">(forgot password?<a href="#">click here)</a></p>
+                            </td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-6">
+                    <div class="buttons">
+                        <button type="submit" onclick="direct()">Submit</button>
+                        <button type="button" onclick="cancel()">Cancel</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

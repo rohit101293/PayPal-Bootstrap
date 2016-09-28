@@ -1,0 +1,149 @@
+<!doctype html>
+<html>
+
+<head lang="en-us">
+    <title>Credit</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="credi_css.css">
+    <script>
+        function direct() {
+            parent.location.href = 'submit_html.html';
+        }
+    </script>
+</head>
+
+<body>
+    <div class="credit">
+        <div class="container">
+            <p class="head">Pay using Debit Card.</p>
+
+
+            <span class="card-icon check-sprite payment-card-icon visa-icon ml-13" name="visa"></span>
+            <span class="card-icon check-sprite payment-card-icon mastercard-icon" name="mastercard"></span>
+            <span class="card-icon check-sprite payment-card-icon dinersclub-icon" name="dinersclub"></span>
+            <span class="card-icon check-sprite payment-card-icon americanexpress-icon" name="americanexpress"></span>
+            <hr>
+            <form name="credit_form">
+                <table cellspacing="10" cellpadding="10">
+                    <tr>
+                        <td>
+                            <h6>Card Number*</h6>
+                        </td>
+                        <td>
+                            <input type="number" class="elements" max-length="16">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h6>Expiry Date*</h6>
+                        </td>
+                        <td>
+                            <select>
+                                <option value="" selected="selected">Month</option>
+                                <option value="1">Jan (1)</option>
+                                <option value="2">Feb (2)</option>
+                                <option value="3">Mar (3)</option>
+                                <option value="4">Apr (4)</option>
+                                <option value="5">May (5)</option>
+                                <option value="6">Jun (6)</option>
+                                <option value="7">Jul (7)</option>
+                                <option value="8">Aug (8)</option>
+                                <option value="9">Sep (9)</option>
+                                <option value="10">Oct (10)</option>
+                                <option value="11">Nov (11)</option>
+                                <option value="12">Dec (12)</option>
+                            </select>
+                            <select>
+                                <option value="" selected="selected">Year</option>
+                                <option value="2015">2015</option>
+                                <option value="2016">2016</option>
+                                <option value="2017">2017</option>
+                                <option value="2018">2018</option>
+                                <option value="2019">2019</option>
+                                <option value="2020">2020</option>
+                                <option value="2021">2021</option>
+                                <option value="2022">2022</option>
+                                <option value="2023">2023</option>
+                                <option value="2024">2024</option>
+                                <option value="2025">2025</option>
+                                <option value="2026">2026</option>
+                                <option value="2027">2027</option>
+                                <option value="2028">2028</option>
+                                <option value="2029">2029</option>
+                                <option value="2030">2030</option>
+                                <option value="2031">2031</option>
+                                <option value="2032">2032</option>
+                                <option value="2033">2033</option>
+                                <option value="2034">2034</option>
+                                <option value="2035">2035</option>
+                                <option value="2036">2036</option>
+                                <option value="2037">2037</option>
+                                <option value="2038">2038</option>
+                                <option value="2039">2039</option>
+                                <option value="2040">2040</option>
+                                <option value="2041">2041</option>
+                                <option value="2042">2042</option>
+                                <option value="2043">2043</option>
+                                <option value="2044">2044</option>
+                                <option value="2045">2045</option>
+                                <option value="2046">2046</option>
+                                <option value="2047">2047</option>
+                                <option value="2048">2048</option>
+                                <option value="2049">2049</option>
+                                <option value="2050">2050</option>
+                                <option value="2051">2051</option>
+                                <option value="2052">2052</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h6>Name on Card*</h6>
+                        </td>
+                        <td>
+                            <input type="text" class="elements">
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h6>CVV Number*</h6>
+                        </td>
+                        <td>
+                            <input type="number" class="cvv">
+                        </td>
+                    </tr>
+                </table>
+            </form>
+            <p>By placing this order, you're agreeing to the <a href="#">Terms of Use</a> of Jabong.com</p>
+            <button class="pay_button" onclick="direct()">Pay Now</button>
+            <div class="next">
+                <h3 class="h3">
+                <em class="next_symbol f1"></em>
+                Next Steps
+                </h3>
+                <ul>
+                    <li>
+                        After clicking on "Pay Now" button, you will be directed to bank's website for payment.
+                    </li>
+                    <li>
+                        Follow the payment steps as mentioned on the bank's website.
+                    </li>
+                    <li>
+                        After successful payment completion, you will be redirected back to Order-summary page at Jabong.
+                    </li>
+                    <li>
+                        You can view, save and print Order-summary page for further communication.
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <div class="blockquote-reverse">
+                <img src="visa-mastercard.gif" width="130px" height="35px">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

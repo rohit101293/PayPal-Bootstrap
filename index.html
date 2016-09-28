@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head lang="en-us">
+    <title>PayPal Secure</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.js"></script>
+    <link rel="stylesheet" href="rohit_css.css">
+    <script>
+        function netbank() {
+            parent.frame1.location = "net_banking.html";
+        }
+
+        function credit() {
+            parent.frame1.location = "credit_html.html";
+        }
+
+        function debit() {
+            parent.frame1.location = "debit_html.html";
+        }
+
+        function wallet() {
+            parent.frame1.location = "wallets_html.html";
+        }
+    </script>
+</head>
+<div class="container">
+    <div class="header">
+    </div>
+</div>
+<div class="payment">
+    <div class="container">
+        <div class="msg">
+            <h5>Select Payment Option  </h5></div>
+        <div class="row">
+            <div class="col-sm-3" id="firstgrid">
+                <div class="sidebar-nav">
+                    <div class="navbar navbar-default" role="navigation">
+                        <div class="navbar-header">
+                            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".sidebar-navbar-collapse">
+                                <span class="sr-only">Toggle navigation</span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                                <span class="icon-bar"></span>
+                            </button>
+                            <span class="visible-xs navbar-brand">Payment Options</span>
+                        </div>
+                        <div class="navbar-collapse collapse sidebar-navbar-collapse">
+                            <ul class="nav navbar-tabs">
+                                <li class="bod"><a href="javascript:netbank()">Net-Banking</a>
+
+                                </li>
+                                <li class="bod"><a href="javascript:debit()">Debit Card</a>
+
+                                </li>
+                                <li class="bod"><a href="javascript:credit()">Credit Card</a>
+
+                                </li>
+                                <li><a href="javascript:wallet()">Wallets</a></li>
+                            </ul>
+                        </div>
+                        <!--/.nav-collapse -->
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-9" id="secondgrid">
+                <iframe name="frame1" src="home.html" width="100%" height="700px"></iframe>
+            </div>
+        </div>
+    </div>
+</div>
+
+</html>

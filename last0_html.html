@@ -1,0 +1,31 @@
+<!doctype html>
+<html>
+
+<head lang="en-us">
+    <title>Credit</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="submit_css.css">
+    <script>
+        function fun() {
+            setTimeout(function () {
+                fun1()
+            }, 5000);
+        }
+
+        function fun1() {
+            document.location.href = 'last_html.html';
+        }
+    </script>
+</head>
+
+<body onload="fun()">
+    <h3>Please do not hit refresh or back button</h3>
+    <div class="spinner-loader" id="spinner">
+    </div>
+    <p style="margin-left:41%;">Please wait your transaction is processing </p>
+</body>
+
+</html>

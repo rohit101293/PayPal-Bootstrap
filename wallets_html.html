@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+
+<head lang="en-us">
+    <title>Wallets</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="wallet_css.css">
+    <script>
+        function direct() {
+            parent.location.href = 'submit_html.html';
+        }
+    </script>
+
+
+</head>
+
+<body>
+    <div class="net">
+        <div class="container">
+            <p id="head">Select your Wallet</p>
+            <hr>
+            <h6>Choose from popular banks</h6>
+            <div class="thumbnail">
+                <input type="radio" id="axis" name="bank">
+                <label for="axis"><img src="PayuMoney.jpg">
+            </div>
+            </label>
+            <div class="thumbnail">
+                <input type="radio" id="HDFC" name="bank">
+                <label for="HDFC"><img src="Paytm.jpg"></div>
+            </label>
+            <div class="thumbnail">
+                <input type="radio" id="SBI" name="bank">
+                <label for="SBI"><img src="Mobikwik.jpg"></div>
+            </label>
+            <br>
+            <div class="thumbnail">
+                <input type="radio" id="CITI" name="bank">
+                <label for="CITI"><img src="AirtelMoney.jpg"></div>
+            </label>
+            <div class="thumbnail">
+                <input type="radio" id="KOTAK" name="bank">
+                <label for="KOTAK"><img src="EzeClick.jpg"></div>
+            </label>
+            <p>You will be redirected to a secure payment gateway</p>
+            <p>By placing this order, you're agreeing to the <a href="#">Terms of Use</a> of Jabong.com</p>
+            <button class="pay_button" onclick="direct()">Pay Now</button>
+        </div>
+    </div>
+</body>
+
+</html>

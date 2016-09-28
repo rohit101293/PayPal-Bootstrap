@@ -1,0 +1,130 @@
+<!doctype html>
+<html>
+
+<head lang="en-us">
+    <title>MOVE</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="net_css.css">
+    <script>
+        function direct() {
+            parent.location.href = 'submit_html.html';
+        }
+    </script>
+</head>
+
+<body>
+    <div class="net">
+        <div class="container">
+            <p id="head">Pay using our Net Banking service.</p>
+            <hr>
+            <h6>Choose from popular banks</h6>
+            <div class="thumbnail">
+                <input type="radio" id="axis" name="bank">
+                <label for="axis"><img src="AXIS_Bank.jpg">
+            </div>
+            </label>
+            <div class="thumbnail">
+                <input type="radio" id="HDFC" name="bank">
+                <label for="HDFC"><img src="HDFC_Bank.jpg"></div>
+            </label>
+            <div class="thumbnail">
+                <input type="radio" id="SBI" name="bank">
+                <label for="SBI"><img src="State_Bank_of_India.jpg"></div>
+            </label>
+            <br>
+            <div class="thumbnail">
+                <input type="radio" id="CITI" name="bank">
+                <label for="CITI"><img src="Citibank_Bank_Account_Online.jpg"></div>
+            </label>
+            <div class="thumbnail">
+                <input type="radio" id="KOTAK" name="bank">
+                <label for="KOTAK"><img src="Kotak_Mahindra_Bank.jpg"></div>
+            </label>
+            <div class="thumbnail">
+                <input type="radio" id="ICICI" name="bank">
+                <label for="ICICI"><img src="ICICI_Bank.jpg">
+            </div>
+            </label>
+            <p>Select from All banks</p>
+            <select>
+                <option selected="selected" value="">-----Select Bank-----</option>
+                <option value="AND_N">Andhra Bank</option>
+                <option value="AXIB">AXIS Bank</option>
+                <option value="BOBCO_N">Bank of Baroda Corporate Accounts</option>
+                <option value="BOB_N">Bank of Baroda Retail Accounts</option>
+                <option value="BOIB">Bank of India</option>
+                <option value="BOMB">Bank of Maharashtra</option>
+                <option value="CABB">Canara Bank</option>
+                <option value="CBIB">Central Bank Of India</option>
+                <option value="CBIBAN_N">Citibank Bank Account Online</option>
+                <option value="CUBB">City Union Bank</option>
+                <option value="CRPB">Corporation Bank</option>
+                <option value="DCBB">DCB Bank ( Development Credit Bank )</option>
+                <option value="DSHB">Deutsche Bank</option>
+                <option value="DLSB">Dhanlaxmi Bank</option>
+                <option value="FEDB">Federal Bank</option>
+                <option value="HDFB">HDFC Bank</option>
+                <option value="ICIB">ICICI Bank</option>
+                <option value="IDBB">IDBI Bank</option>
+                <option value="INDB">Indian Bank</option>
+                <option value="INOB">Indian Overseas Bank</option>
+                <option value="INIB">IndusInd Bank</option>
+                <option value="INGB">ING Vysya Bank ( now Kotak )</option>
+                <option value="JAKB">Jammu Kashmir Bank</option>
+                <option value="KRKB">Karnataka Bank</option>
+                <option value="KRVB">Karur Vysya Bank</option>
+                <option value="162B">Kotak Mahindra Bank</option>
+                <option value="LVB_N">Lakshmi Vilas Bank NetBanking</option>
+                <option value="OBPRF_N">Oriental Bank of Commerce</option>
+                <option value="NPNB_N">Punjab National Bank Retail Accounts</option>
+                <option value="RBS_N">Royal Bank of Scotland N.V.</option>
+                <option value="SIB_N">South Indian Bank</option>
+                <option value="SDCB">Standard Chartered Bank</option>
+                <option value="SBBJB">State Bank of Bikaner and Jaipur</option>
+                <option value="SBHB">State Bank of Hyderabad</option>
+                <option value="SBIB">State Bank of India</option>
+                <option value="SBMB">State Bank of Mysore</option>
+                <option value="SBPB">State Bank of Patiala</option>
+                <option value="SBTB">State Bank of Travancore</option>
+                <option value="SYNBK_N">Syndicate Bank</option>
+                <option value="TNMB_N">Tamilnad Mercantile Bank</option>
+                <option value="UBIB">Union Bank of India</option>
+                <option value="UNIB">United Bank of India</option>
+                <option value="VJYB">Vijaya Bank</option>
+                <option value="YESB">YES Bank</option>
+            </select>
+            <p>You will be redirected to a secure payment gateway</p>
+            <br />
+            <p>By placing this order, you're agreeing to the Terms of Use of Jabong.com</p>
+            <button class="pay_button" onclick="direct()" target="_blank">Pay Now</button>
+            <div class="next">
+                <h3 class="h3">
+                <em class="check-sprite f1"></em>
+                Next Steps
+                </h3>
+                <ul>
+                    <li>
+                        After clicking on "Pay Now" button, you will be directed to bank's website for payment.
+                    </li>
+                    <li>
+                        Follow the payment steps as mentioned on the bank's website.
+                    </li>
+                    <li>
+                        After successful payment completion, you will be redirected back to Order-summary page at Jabong.
+                    </li>
+                    <li>
+                        You can view, save and print Order-summary page for further communication.
+                    </li>
+                </ul>
+            </div>
+            <hr>
+            <div class="blockquote-reverse">
+                <img src="visa-mastercard.gif" width="130px" height="35px">
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
